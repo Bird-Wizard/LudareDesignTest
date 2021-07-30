@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 89a07fd94fc4e5f478af91f336b02910
+guid: eea754a8769fcb440b236872c1cd7d7b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2775314855002378451
-    second: Water_Hazard_0
+      213: -4899284809578235750
+    second: Snelly_Idle_0
   - first:
-      213: 2296351795003115058
-    second: Water_Hazard_1
+      213: 5450721676964013217
+    second: Snelly_Idle_1
   - first:
-      213: 4234212046168324127
-    second: Water_Hazard_2
+      213: -3633901023080295996
+    second: Snelly_Idle_2
   - first:
-      213: -5822328406930630275
-    second: Water_Hazard_3
+      213: 2485662385804416172
+    second: Snelly_Idle_3
+  - first:
+      213: 8010766639468113610
+    second: Snelly_Idle_4
+  - first:
+      213: 3854124241641977711
+    second: Snelly_Idle_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,13 +145,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water_Hazard_0
+      name: Snelly_Idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2fe7b7f7d91c79d0800000000000000
-      internalID: -2775314855002378451
+      spriteID: a983f975c6e320cb0800000000000000
+      internalID: -4899284809578235750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_Hazard_1
+      name: Snelly_Idle_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 236cd7c7ac74edf10800000000000000
-      internalID: 2296351795003115058
+      spriteID: 1a426fc6c7ad4ab40800000000000000
+      internalID: 5450721676964013217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_Hazard_2
+      name: Snelly_Idle_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18fa831c61f2ca30800000000000000
-      internalID: 4234212046168324127
+      spriteID: 4c1de52d54ac19dc0800000000000000
+      internalID: -3633901023080295996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_Hazard_3
+      name: Snelly_Idle_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +222,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d79db33792fe23fa0800000000000000
-      internalID: -5822328406930630275
+      spriteID: ca41c6135c8de7220800000000000000
+      internalID: 2485662385804416172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snelly_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aceeb04d0d5fb2f60800000000000000
+      internalID: 8010766639468113610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snelly_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67ba47e3999c7530800000000000000
+      internalID: 3854124241641977711
       vertices: []
       indices: 
       edges: []
@@ -225,7 +273,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 962392693ff98a740b05cd35c14c4310
+    spriteID: fb7fdd08598722f4fbdc44d41f162e83
     internalID: 0
     vertices: []
     indices: 

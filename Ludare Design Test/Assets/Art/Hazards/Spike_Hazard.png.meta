@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 89a07fd94fc4e5f478af91f336b02910
+guid: 4270f21c398738b479dfb0ae44c34c52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2775314855002378451
-    second: Water_Hazard_0
+      213: -7110092671234875571
+    second: Spike_Hazard_0
   - first:
-      213: 2296351795003115058
-    second: Water_Hazard_1
-  - first:
-      213: 4234212046168324127
-    second: Water_Hazard_2
-  - first:
-      213: -5822328406930630275
-    second: Water_Hazard_3
+      213: -8072831449683793407
+    second: Spike_Hazard_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water_Hazard_0
+      name: Spike_Hazard_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2fe7b7f7d91c79d0800000000000000
-      internalID: -2775314855002378451
+      spriteID: d4fdfeae260e35d90800000000000000
+      internalID: -7110092671234875571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_Hazard_1
+      name: Spike_Hazard_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,50 +168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 236cd7c7ac74edf10800000000000000
-      internalID: 2296351795003115058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water_Hazard_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f18fa831c61f2ca30800000000000000
-      internalID: 4234212046168324127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water_Hazard_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d79db33792fe23fa0800000000000000
-      internalID: -5822328406930630275
+      spriteID: 10aeef5719a87ff80800000000000000
+      internalID: -8072831449683793407
       vertices: []
       indices: 
       edges: []
@@ -225,7 +177,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 962392693ff98a740b05cd35c14c4310
+    spriteID: 2756eac71e7de5b42958e640b1081ba4
     internalID: 0
     vertices: []
     indices: 

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1821826429443632141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1821826429443632139}
+  - component: {fileID: 1821826429443632138}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1821826429443632139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821826429443632141}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1821826429443632138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821826429443632141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d645683fc8a075408acd1f357ccbf09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Name: Music_1
+    Clip: {fileID: 8300000, guid: d1318d24292b1f242b488a6916ec6733, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Music_2
+    Clip: {fileID: 8300000, guid: b314612713d03a846a6cfcb036c3716f, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Music_3
+    Clip: {fileID: 8300000, guid: dbc8f174a65f8bc4bbc60b23733142c6, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Music_4
+    Clip: {fileID: 8300000, guid: 685d8a3a778d17046a2fcefe890e14f8, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Player_Death
+    Clip: {fileID: 8300000, guid: afa0ae4249dc3844e9e33a0418deb85a, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Enemy_Death
+    Clip: {fileID: 8300000, guid: d39079f93ac73be4b9878bac5f5e9b6d, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Jump
+    Clip: {fileID: 8300000, guid: 3e068bddf722e0840b9a8062740d21b6, type: 3}
+    Volume: 0.05
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Collect
+    Clip: {fileID: 8300000, guid: 19172c85964663b48bb1948c1b084da5, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Powerup
+    Clip: {fileID: 8300000, guid: d21f4ed9e60cd744fbdb305a8b092a93, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}

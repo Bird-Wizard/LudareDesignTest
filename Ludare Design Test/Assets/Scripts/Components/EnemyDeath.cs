@@ -49,7 +49,6 @@ public class EnemyDeath : MonoBehaviour
     }
 
     private Animator m_Animator = null;
-    private Rigidbody2D m_RigidBody = null;
     private Collider2D m_Collider = null;
 
     private bool m_IsDying = false;

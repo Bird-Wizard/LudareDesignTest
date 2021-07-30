@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
+        // Basic movement
         if (Input.GetButtonDown("Jump") && NumJumps > 1)
         {
             m_RigidBody.velocity = new Vector2(m_RigidBody.velocity.x, JumpForce);
@@ -44,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
             NumJumps--;
         }
 
-        if(IsGrounded())
+        if (IsGrounded())
         {
             NumJumps = 2;
         }
@@ -55,14 +56,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateAnimations()
     {
+        // Update animation states based on movement
         MoveState state;
 
-        if(m_PlayerDirX > 0.0f)
+        if (m_PlayerDirX > 0.0f)
         {
             state = MoveState.eWalk;
             m_Renderer.flipX = false;
         }
-        else if(m_PlayerDirX < 0.0f)
+        else if (m_PlayerDirX < 0.0f)
         {
             state = MoveState.eWalk;
             m_Renderer.flipX = true;
@@ -72,11 +74,11 @@ public class PlayerMovement : MonoBehaviour
             state = MoveState.eIdle;
         }
 
-        if(m_RigidBody.velocity.y > 0.1f)
+        if (m_RigidBody.velocity.y > 0.1f)
         {
             state = MoveState.eJump;
         }
-        else if(m_RigidBody.velocity.y < -0.1f)
+        else if (m_RigidBody.velocity.y < -0.1f)
         {
             state = MoveState.eFall;
         }
@@ -84,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
         m_Animator.SetInteger("State", (int)state);
     }
 
+    // Simple grounded check
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(m_Collider.bounds.center, m_BoundsOffset, 0.0f, Vector2.down, 0.1f, m_JumpableGround);

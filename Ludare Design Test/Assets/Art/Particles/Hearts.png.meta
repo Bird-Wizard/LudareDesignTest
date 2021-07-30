@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 89a07fd94fc4e5f478af91f336b02910
+guid: 9d22444a8e456db4388c5ef19a3a6d6e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2775314855002378451
-    second: Water_Hazard_0
+      213: 7107508412977418053
+    second: Heart-Sheet_0
   - first:
-      213: 2296351795003115058
-    second: Water_Hazard_1
+      213: 4409817262345531807
+    second: Heart-Sheet_1
   - first:
-      213: 4234212046168324127
-    second: Water_Hazard_2
+      213: -6632522883082577772
+    second: Heart-Sheet_2
   - first:
-      213: -5822328406930630275
-    second: Water_Hazard_3
+      213: 6926100132977683885
+    second: Heart-Sheet_3
+  - first:
+      213: 711063480509859802
+    second: Heart-Sheet_4
+  - first:
+      213: 5726951638948490461
+    second: Heart-Sheet_5
+  - first:
+      213: -1070772558361310286
+    second: Heart-Sheet_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,13 +148,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water_Hazard_0
+      name: Heart-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2fe7b7f7d91c79d0800000000000000
-      internalID: -2775314855002378451
+      spriteID: 54f8e919e31f2a260800000000000000
+      internalID: 7107508412977418053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_Hazard_1
+      name: Heart-Sheet_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 236cd7c7ac74edf10800000000000000
-      internalID: 2296351795003115058
+      spriteID: f91bd769f61d23d30800000000000000
+      internalID: 4409817262345531807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_Hazard_2
+      name: Heart-Sheet_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18fa831c61f2ca30800000000000000
-      internalID: 4234212046168324127
+      spriteID: 4989635149b84f3a0800000000000000
+      internalID: -6632522883082577772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water_Hazard_3
+      name: Heart-Sheet_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 128
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +225,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d79db33792fe23fa0800000000000000
-      internalID: -5822328406930630275
+      spriteID: dadabe8ff537e1060800000000000000
+      internalID: 6926100132977683885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad70b88d7743ed900800000000000000
+      internalID: 711063480509859802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcad554c283a7f40800000000000000
+      internalID: 5726951638948490461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb43a7080ad321f0800000000000000
+      internalID: -1070772558361310286
       vertices: []
       indices: 
       edges: []
@@ -225,7 +297,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 962392693ff98a740b05cd35c14c4310
+    spriteID: aacbca7b17c40e847a6e6c1b44cc2e80
     internalID: 0
     vertices: []
     indices: 

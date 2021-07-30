@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDeath : MonoBehaviour
 {
-    void Start()
+    private void Start()
     {
         m_Animator = GetComponent<Animator>();
         m_RigidBody = GetComponent<Rigidbody2D>();
@@ -13,6 +13,7 @@ public class PlayerDeath : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // If player hits hazard or enemy
         if(collision.gameObject.CompareTag("Hazard") || collision.gameObject.CompareTag("Enemy"))
         {
             Die();
@@ -25,6 +26,7 @@ public class PlayerDeath : MonoBehaviour
         m_Animator.SetTrigger("Death");
         AudioManager.Instance.Play("Player_Death");
 
+        // Wait a bit beforehand
         Invoke("Restart", 2);
     }
 
